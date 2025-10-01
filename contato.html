@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - QUAIATO ENGENHARIA ELÉTRICA</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #121212; color: #e0e0e0; }
+    header { background: #1c1c1c; display: flex; align-items: center; justify-content: space-between; padding: 10px 30px; }
+    header img { height: 60px; }
+    header h1 { font-size: 1.5rem; margin: 0; color: #f28c28; }
+    nav { display: flex; gap: 20px; }
+    nav a { color: #e0e0e0; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #f28c28; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; }
+    h2 { color: #f28c28; text-align: center; }
+    form { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+    input, textarea { padding: 10px; border: none; border-radius: 5px; }
+    button { padding: 10px; background: #f28c28; border: none; border-radius: 5px; color: #fff; font-weight: bold; cursor: pointer; }
+    button:hover { background: #d9741c; }
+    .whatsapp { text-align: center; margin-top: 30px; }
+    .whatsapp a { color: #25D366; font-size: 1.2rem; text-decoration: none; font-weight: bold; }
+    footer { background: #1c1c1c; color: #aaa; text-align: center; padding: 15px; margin-top: 30px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; align-items:center; gap:15px;">
+      <img src="logo.png" alt="Logo Quaiato Engenharia Elétrica">
+      <h1>QUAIATO ENGENHARIA ELÉTRICA</h1>
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Entre em Contato</h2>
+    <p>Email: contato@quaiatoengenharia.com</p>
+    <p>Telefone: (47) 99934-7287</p>
+    <p>Endereço: Rua da Energia, 123 - São Paulo/SP</p>
+
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="whatsapp">
+      <p>Fale conosco também pelo WhatsApp:</p>
+      <a href="https://wa.me/5547999347287" target="_blank">📱 Clique aqui para conversar</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 QUAIATO ENGENHARIA ELÉTRICA - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
